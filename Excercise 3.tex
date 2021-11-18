@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{multirow} % Required for multirows
+
+\usepackage{siunitx} % Required for alignment
+\sisetup{
+    round-mode       = places, % Rounds numbers
+    round-precision  = 2, % to 2 places
+}
+
+\begin{document}
+	\begin{table}[h!]
+		\begin{center}
+			\caption{multirow table.}
+			\label{tab:table 1}
+			\begin{tabular}{l|S|r}
+				\hline
+				\textbf{value 1} 
+			\end{tabular}
+		\end{center}
+	\end{table}
